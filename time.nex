@@ -3,3 +3,8 @@ type Timestamp struct {
     unix: int
     nanos: int
 }
+
+// Duration represents the elapsed, nanosecond-resolution, time between two instants.
+type Duration struct {
+    nanos: int
+}
