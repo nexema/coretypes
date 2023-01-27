@@ -1,0 +1,5 @@
+// Timestamp provides a nanosecond-resolution type to represent timestamps.
+type Timestamp struct {
+    unix: int
+    nanos: int
+}
